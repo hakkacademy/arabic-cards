@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Араб әліппесі</title>
+  <link rel="shortcut icon" href="assets/hakk-icon.png?v=2" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <section class="logoWrapper">
+      <img src="assets/hakk-logo.svg" alt="hakk logo" class="hakkLogo">
+    </section>
+    <nav>
+      <a href="https://instagram.com/hakk_academy" target="_blank" class="socialLink">
+        <img src="assets/instagram.svg" alt="Instagram">
+      </a>
+      <a href="https://wa.me/77005752024" target="_blank" class="socialLink">
+        <img src="assets/whatsapp.svg" alt="WhatsApp">
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="card" class="card">
+      <button id="arabicLetter" class="arabicLetter">ا</button>
+      <button id="transcription" class="transcription" hidden>әлиф</button>
+    </section>
+
+    <section class="controls">
+      <button id="previous" class="previous" lang="ar" dir="rtl">←</button>
+      <button id="shuffle" class="shuffle">араластыру</button>
+      <button id="next" class="next">→</button>
+    </section>
+
+    <section id="counter" class="counter">1 / 28</section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
